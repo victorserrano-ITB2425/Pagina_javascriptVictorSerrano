@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.seccion_arriba{
+    border: 10% solid black;
+    padding-left: 9%;
+    margin-top: 2%;
+    width: 82%;
+    height: 60%;
+}
+
+.header{
+    display: flex;
+    padding: 3%;
+    text-align: center;
+    border: 4px solid black;
+    height: 120%;
+}
+
+.texto_header{
+    padding-left: 31%;
+}
+
+.foto1_a{
+    height: 10%;
+    width: 12%;
+    margin: 0;
+    padding: 0;
+}
+
+.foto1{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.nav_arriba{
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    padding: 1%;
+}
+
+.lista_nav{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 11%;
+    gap: 16%;
+}
+.principal{
+    width: 100%;
+    height: 100vh;
+}
+
+.footer{
+    background-color: #1e2a9cd0;
+    height: 35vh;
+}
+
+.seccion_footer{
+    margin-top: 1.5%;
+}
+
+.lista_footer{
+    display: flex;
+    gap: 5%;
+    margin-left: 10%;
+}
+
+.lista_redes_footer{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap: 1.5%;
+    margin-left: 9%;
+}
+
+.contact-form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;  
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e2a9cd0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+

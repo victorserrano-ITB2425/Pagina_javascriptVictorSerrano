@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FutureDevHub</title>
+    <link rel="stylesheet" href="estilo_formulario.css">
+</head>
+<body>
+    <section class="seccion_arriba">
+    <header class="header"><a class="foto1_a" href="index.html"><img class="foto1" src="https://dca.cat/wp-content/uploads/2022/05/ITB_Logo_ITBdesc_800-Direccio-ITB-Alberto-Vila.png"></img></a><p class="texto_header"><U><h1>FutureDevHub</h1></p></header></U>
+    <nav class="nav_arriba">
+        <ul class="lista_nav">
+            <li><a class="apartado1" href="Lista.html">Lista de proyectos</a></li>
+            <li><a class="apartado2" href="formulario.html">Formulario de contacto</a></li>
+            <li><a class="apartado3" href="">Donde estamos</a></li>
+            <li><a class="apartado4" href="">Politica y privacidad</a></li>
+        </ul>
+        <center><button id="miBoton">INFORMACION </button></center>
+        <center><p id="mensaje"></p></center>
+        <script>
+            document.getElementById("miBoton").addEventListener("click", function() {
+            document.getElementById("mensaje").innerText = "Bienvenido a mis proyectos";
+            });
+        </script>
+    </nav>
+    </section>
+    <main id="principal">
+        <div class="contact-form-container">
+            <h2>Formulari de contacte</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="surname">Cognoms</label>
+                    <input type="text" id="surname" name="surname" placeholder="Cognoms" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correu Electrònic</label>
+                    <input type="email" id="email" name="email" placeholder="El teu correu electrònic" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Assumpte</label>
+                    <input type="text" id="subject" name="subject" placeholder="Assumpte del missatge" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Missatge</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Escriu el teu missatge..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <section class="seccion_footer">
+            <ul class="lista_redes_footer">
+                <li><img class="foto_insta" src="https://static.vecteezy.com/system/resources/thumbnails/018/930/415/small/instagram-logo-instagram-icon-transparent-free-png.png"  width="60" height="60"></li>
+                <li><img class="foto_X" src="https://static.vecteezy.com/system/resources/previews/042/148/611/non_2x/new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.png" width="60" height="60"></li>
+                <li><img class="foto_facebook" src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" width="60" height="60"></li>
+                <li><img class="foto_tiktok" src="https://static.vecteezy.com/system/resources/thumbnails/018/930/470/small/tiktok-logo-tikok-icon-transparent-tikok-app-logo-free-png.png" width="60" height="60"></li>
+            </ul>
+        </section>
+            <ul class="lista_footer">
+                <li>
+                    <p>información de Contacto</p>
+                    <p class="p_f1">Direccion</p>
+                    <p class="p_f1">numero_telefono</p>
+                    <p class="p_f1">victor.serrano.7e8.itb.cat</p>
+                </li>
+                <li>
+                    <p>Preguntas Frecuentes (FAQ)</p>
+                    <p class="p_f1">Donde estamos ubicados</p>
+                </li>
+                <li>
+                    <p>Politica de Privacidad y Terminos de uso</p>
+                    <p class="p_f1">politica y terminos</p>
+                    <p class="p_f1">cookies</p>
+                </li>
+                <li>
+                    <p>© 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
+                    <p class="p_f1">Pagina con derechos de autor</p>
+                </li>
+                <li>
+                    <p>Soporte tecnico o Ayuda</p>
+                    <p class="p_f1">Enlace formulario</p>
+                </li>
+            </ul>
+    </footer>
+</body>
+</html>
